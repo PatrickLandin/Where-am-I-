@@ -43,8 +43,29 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         Speed.text = "\(userLocation.speed)"
         Altitude.text = "\(userLocation.altitude)"
         
+        CLGeocoder().reverseGeocodeLocation(userLocation, completionHandler:{(placemarks, error) in
+            
+            if ((error) != nil)  { println("Error: \(error)") }
+            else {
+                
+                let p = CLPlacemark(placemark: placemarks?[0] as CLPlacemark)
+                
+                var subThoroughfare:String
+                
+                if ((p.subThoroughfare) != nil) {
+                    subThoroughfare = p.subThoroughfare
+                } else {
+                    subThoroughfare = ""
+                }
+                
+                self.Address.text =  "\(subThoroughfare) \(p.thoroughfare) \n \(p.subLocality) \n \(p.subAdministrativeArea) \n \(p.postalCode) \(p.country)"
+            }
+            
+            
+        })
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -52,4 +73,3 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 
 
 }
-

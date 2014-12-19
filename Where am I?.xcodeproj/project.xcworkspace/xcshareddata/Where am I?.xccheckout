@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CF984CDD-FD81-4514-80D9-E2A3569A1D0E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Where am I?</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>962545AAC55CB249722AEBC7017427E63C42F3DF</key>
+		<string>https://github.com/PatrickLandin/Where-am-I-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Where am I?.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>962545AAC55CB249722AEBC7017427E63C42F3DF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/PatrickLandin/Where-am-I-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>962545AAC55CB249722AEBC7017427E63C42F3DF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>962545AAC55CB249722AEBC7017427E63C42F3DF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Where%20am%20I%3F</string>
+		</dict>
+	</array>
+</dict>
+</plist>
